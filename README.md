@@ -1,1 +1,1 @@
-# solopreneur-addon
+# Solopreneur Chrome Extension
