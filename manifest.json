@@ -1,10 +1,10 @@
 {
-  "name": "Hello Extensions of the world!",
-  "description": "Base Level Extension",
+  "name": "Solopreneur dashboard",
+  "description": "All-in-one dashboard that centralizes your revenue streams and social media statistics through API connections",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_popup": "dashboard.html",
+    "default_icon": "images/icon32.png"
   }
 }
