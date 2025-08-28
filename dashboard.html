@@ -1,6 +1,31 @@
-<html>
-  <body>
-    <h1>Hello Extensions</h1>
-    <script src="popup.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solopreneur Dashboard</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>Solopreneur Dashboard</h1>
+            <div class="total-revenue" id="totalRevenue">$0.00</div>
+            <p>Complete overview of all your revenue streams</p>
+        </div>
+        
+        <div class="sources-grid" id="sourcesGrid">
+        </div>
+        
+        <div class="config-section">
+            <h3 class="config-title">Add New Revenue Source</h3>
+            <button class="add-source-btn" onclick="showAddSourceForm()">
+                + Connect New Platform
+            </button>
+        </div>
+    </div>
+
+
+    <script src="scripts/dashboard.js"></script>
+</body>
 </html>

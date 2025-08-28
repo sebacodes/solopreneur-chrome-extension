@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solopreneur Dashboard</title>
+    <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+    <div class="popup-header">
+        <h1>Solopreneur Dashboard</h1>
+        <div class="total-revenue" id="totalRevenue">$0.00</div>
+        <div class="revenue-subtitle">Total Revenue</div>
+    </div>
+    
+    <div class="popup-content">
+        <!-- Revenue Stats -->
+        <div class="quick-stats">
+            <div class="stat-card">
+                <div class="stat-value" id="connectedSources">0</div>
+                <div class="stat-label">Connected</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="monthlyGrowth">+0%</div>
+                <div class="stat-label">Growth</div>
+            </div>
+        </div>
+        
+        <!-- Social Media Notifications -->
+        <div class="notifications-section">
+            <div class="section-title">
+                📊 Social Media Updates
+            </div>
+            <div id="socialNotifications">
+            </div>
+        </div>
+        
+        <button class="open-dashboard-btn" id="openDashboard">
+            Open Full Dashboard
+        </button>
+    </div>
+
+
+    <script src="scripts/popup.js"></script>
+</body>
+</html>

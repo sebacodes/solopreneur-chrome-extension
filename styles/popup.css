@@ -1,0 +1,158 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 350px;
+            min-height: 400px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+        }
+        
+        .popup-header {
+            background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .popup-header h1 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .total-revenue {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #00c853;
+            margin-bottom: 4px;
+        }
+        
+        .revenue-subtitle {
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+        
+        .popup-content {
+            padding: 16px;
+        }
+        
+        .notifications-section {
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .notification-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            border-left: 3px solid;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .notification-item.twitter { border-left-color: #1da1f2; }
+        .notification-item.youtube { border-left-color: #ff0000; }
+        .notification-item.instagram { border-left-color: #e4405f; }
+        
+        .notification-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.8rem;
+            color: white;
+        }
+        
+        .notification-icon.twitter { background: #1da1f2; }
+        .notification-icon.youtube { background: #ff0000; }
+        .notification-icon.instagram { background: #e4405f; }
+        
+        .notification-content {
+            flex: 1;
+        }
+        
+        .notification-title {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #374151;
+            margin-bottom: 2px;
+        }
+        
+        .notification-value {
+            font-size: 0.75rem;
+            color: #6b7280;
+        }
+        
+        .notification-change {
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .notification-change.positive { color: #059669; }
+        .notification-change.negative { color: #dc2626; }
+        .notification-change.neutral { color: #6b7280; }
+        
+        .open-dashboard-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .open-dashboard-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        
+        .quick-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stat-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #374151;
+        }
+        
+        .stat-label {
+            font-size: 0.7rem;
+            color: #6b7280;
+            margin-top: 2px;
+        }
